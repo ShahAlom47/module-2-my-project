@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {}
+
+header {
+    background-color: rgb(64 79 14);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #ffee00;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    left: 10px;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    left: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255 249 5 / 60%);
+    width: 100px;
+    padding: 5px;
+    font-weight: 700;
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 4px red;
+    text-shadow: 1.5px 1.5px 3px white;
+}
+
+/* navbar end */
+.blog-heading {
+    background-color: rgba(0, 0, 0, 0.207);
+}
+
+#first-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(photos/bg5.jpg) no-repeat center center/cover;
+    margin: auto;
+    height: 100%;
+}
+
+#blog-text {
+    width: 60%;
+    border: 3px solid wheat;
+    text-align: center;
+    padding: 16px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.361);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 3px 3px 90px 90px;
+}
+
+.blog-pera {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+
+#blog-text #blog-button {
+    width: 180px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgba(246, 213, 163, 0.513);
+    border: none;
+    border-radius: 3px;
+
+
+}
+
+/* section start */
+
+section {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.heading1 {
+    padding: 10px;
+    color: rgb(237 255 0);
+    text-shadow: 2px 2px 3px rgb(161 52 193);
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 1px 15px;
+    width: 40%;
+    text-align: center;
+    background: url(photos/bg4.jpg) no-repeat center center/cover;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 6px 6px 7px rgb(224, 133, 42);
+    display: flex;
+    /* align-items: center; */
+}
+
+#aside-dj {
+    background-color: rgba(0, 0, 0, 0.531);
+
+    border-radius: 1% 1% 45% 50%;
+    margin: 0px 6px 25px 6px;
+    padding: 19px;
+    word-wrap: break-word; 
+    overflow: hidden;
+}
+
+.a-btn {
+    height: 27px;
+    width: 140px;
+    margin: 14px;
+}
+
+.box-container {
+    margin: 5px;
+    padding: 5px;
+    width: 60%;
+    background: url(photos/bg3.jpg) no-repeat center center/cover;
+}
+
+.box {
+    background-color: rgba(172, 116, 224, 0.527);
+    margin: 12px;
+    padding: 11px;
+    box-shadow: black 5px 5px 6px;
+}
+
+.heading2 {
+    margin: 5px 10px;
+    padding: 3px 16px 3px 3px;
+    background-color: rgba(0, 0, 0, 0.44);
+    display: inline;
+    color: aliceblue;
+    border-radius: 1px 19px 19px 1px;
+}
+
+.box-pera {
+    margin: 5px 10px;
+
+}
+
+.box ul {
+    padding: 2px 29px;
+}
+
+.box-heading {
+    background-color: rgba(0, 0, 0, 0.701);
+    margin: 10px;
+}
+
+#form-container {
+    display: flex;
+    background-color: rgba(173, 233, 88, 0.415);
+    background: url(photos/form.jpg) no-repeat center center/cover;
+    width: 100%;
+}
+
+#right-box {
+    margin: 15px 30px;
+    padding: 5px;
+    width: 60%;
+    box-shadow: 15px 0px 15px -10px rgba(0, 0, 0, 0.75);
+
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    color: #edff00;
+}
+
+#right-box h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#left-box {
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 15px;
+    width: 40%;
+    background-color: rgba(186, 186, 49, 0.558);
+    margin: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px -0px 15px -10px rgba(0, 0, 0, 0.75);
+
+}
+
+#form-box {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-box h4 {
+    margin: 15px 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px 0px rgb(122 54 123);
+
+}
+
+form input {
+
+    padding: 6px;
+    margin: -5px 5px;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* input[type="button"] {
+   width: 90%;
+  }
+   */
